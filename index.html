@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "bpMZ3wIxcur3JBL_U",
+      });
+   })();
+</script>
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">myPortifolio</div>
+
+        <div class="nav">
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li  >
+            </ul>
+        </div>
+        <div class="theme-nav-oc">
+            <div class="change-theme">
+                <img src="./image and icon folder/icon/moon.png" class="light-mood" alt="">
+            </div>
+            <div class="open-menu-link-in-responsive">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-container-note">
+                    <h2>Welcome to my portfolio!</h2> 
+                    <p>I'm Dolapo AbdulRahman, a passionate developer/designer dedicated to creating innovative solutions. <br> Explore my projects and let's connect!
+                    </p>
+                    <button><a href="#contact">let's connect</a></button>
+                    <!-- <button><a href="./image and icon folder/others/RAHMAN RESUME.pdf" download>Download CV</a></button> -->
+                </div>
+                <img src="./image and icon folder/image/2.jpg" width="350" height="350" alt="A picture of Dolapo AbdulRahman">
+            </div>
+            <a href="#about">
+                <!-- <img src="./image and icon folder/icon/arrowdown.png" width="40px" height="40px" class="arrow-down" alt=""> -->
+            </a>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-container">
+                <img src="./image and icon folder/image/2.jpg" alt="A picture of Dolapo AbdulRahman">
+
+                <div class="about-note">
+                    <h3 class="about-title">About Me</h3>
+                    <p class="about-subject">A Front-end Developer & <span class="second-about-subject">Designer</span></p>
+
+                    <p>Hi, I'm Dolapo AbdulRahman, a web developer passionate about building exceptional digital experiences. With expertise in HTML5, CSS3, Tailwind CSS, and JavaScript, I craft clean, efficient, and responsive code.
+                    When I'm not coding, you can find me exploring new design trends, learning new skills, or mentoring others in the web development community.
+
+                    I'm excited to collaborate with like-minded individuals and businesses to build dynamic, engaging, and user-centered web applications. Let's connect and bring your vision to life.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skill" id="skills">
+            <h3 class="skill-title">Skills</h3>
+            <div class="inner-container">
+                <div class="skills-inner-item">
+                    <div class="skill-item">
+                        <div class="inner-warpper">
+                            <p><i class='bx bxl-html5'></i> HTML5</p>
+                            <p>95%</p>
+                        </div>
+                        <div class="wrapper">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="inner-warpper">
+                            <p><i class='bx bxl-javascript'></i>CSS3</p>
+                            <p>93%</p>
+                        </div>
+                        <div class="wrapper">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="inner-warpper">
+                            <p><i class='bx bxl-tailwind-css'></i>TAILWIND</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="wrapper">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="inner-warpper">
+                            <p><i class='bx bxl-javascript'></i> JAVASCRIPT</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="wrapper">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="circle-skills-container">
+                    <div class="radial-circle-container">
+                        <div class="circle-item">
+                            <div class="circle">
+                                <svg>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h3>95 <span>%</span></h3>
+                                </div>
+                            </div>
+                            <div class="circle-title"><i class='bx bxl-html5'></i> HTML</div>
+                        </div>
+                        <div class="circle-item">
+                            <div class="circle">
+                                <svg>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h3>93 <span>%</span></h3>
+                                </div>
+                            </div>
+                            <div class="circle-title"><i class='bx bxl-css3'></i>CSS</div>
+                        </div>
+                        <div class="circle-item">
+                            <div class="circle">
+                                <svg>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h3>90 <span>%</span></h3>
+                                </div>
+                            </div>
+                            <div class="circle-title"><i class='bx bxl-tailwind-css'></i> TAILWIND</div>
+                        </div>
+                        <div class="circle-item">
+                            <div class="circle">
+                                <svg>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                    <circle cy="40" cx="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h3>80 <span>%</span></h3>
+                                </div>
+                            </div>
+                            <div class="circle-title"><i class='bx bxl-javascript'></i> JAVASCRIPT </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h3 class="contact-title">Contact Me</h3>
+            <div class="inner-contact">
+                <div class="form-container">
+                    <!-- <form> -->
+                        <div class="form-type-text">
+                            <div>
+                                <label for="Fname">First Name</label><br>
+                                <input type="text" name="fname" id="Fname" placeholder="First Name">
+                            </div>
+                            <div>
+                                <label for="Oname">Other Name</label><br>
+                                <input type="text" name="oname" id="Oname" placeholder="Other Name">
+                            </div>
+                        </div>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Email"><br>
+                        <label for="message">Message</label><br>
+                        <textarea name="mesasage" id="message" placeholder="Message"></textarea> <br>
+                        <button onclick="sendMailBtn()" type="submit">Send</button>
+                    <!-- </form> -->
+                </div>
+                <div class="mail-icon-number">
+                    <p><i class='bx bxs-phone'></i> Phone Number: +2348113441673</p>
+                    <p><i class='bx bx-envelope'></i> Email:<a href="mailto:aboyi2046@gmail.com"> aboyi2046@gmail.com</a></p>
+                    <div class="socal-icon-links">
+                        <a href="https://wa.me/qr/J3ZGW4EVHXR5I1" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                        <a href=""><i class="bx bxl-linkedin"></i></a>
+                        <a href=""><i class="bx bxl-facebook"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; ALL RIGHT RESERVED</p>
+        <p>Design by Dev.Rahman</p>
+        <a href="#home"><img src="./image and icon folder/icon/arrowup.png" width="30" height="30" alt="Arrow to go up"></a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <i class='bx bx-x'></i> -->
+<!-- <i class='bx bx-menu'></i> -->
